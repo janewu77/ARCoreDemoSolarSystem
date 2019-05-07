@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.google.ar.sceneform.samples.solarsystem;
+package com.janestrip.demo.arcore.solarsystem;
 
 import android.content.Context;
 import android.view.MotionEvent;
@@ -25,6 +25,7 @@ import com.google.ar.sceneform.math.Quaternion;
 import com.google.ar.sceneform.math.Vector3;
 import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.rendering.ViewRenderable;
+import com.janestrip.demo.arcore.solarsystem.R;
 
 /**
  * Node that represents a planet.

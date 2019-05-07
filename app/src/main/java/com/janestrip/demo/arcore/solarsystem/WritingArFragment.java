@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.ar.sceneform.samples.solarsystem;
+package com.janestrip.demo.arcore.solarsystem;
 
 import android.Manifest;
 import android.content.Intent;

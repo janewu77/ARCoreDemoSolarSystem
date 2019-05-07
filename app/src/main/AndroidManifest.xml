@@ -15,7 +15,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.google.ar.sceneform.samples.solarsystem">
+    package="com.janestrip.demo.arcore.solarsystem">
     <!-- Always needed for AR. -->
 
     <uses-permission android:name="android.permission.CAMERA" />

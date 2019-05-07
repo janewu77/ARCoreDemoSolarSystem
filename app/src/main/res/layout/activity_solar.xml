@@ -28,7 +28,7 @@
       <!--android:layout_gravity="top"/>-->
 
   <fragment
-      class="com.google.ar.sceneform.samples.solarsystem.WritingArFragment"
+      class="com.janestrip.demo.arcore.solarsystem.WritingArFragment"
       android:id="@+id/ux_fragment"
       android:layout_width="match_parent"
       android:layout_height="match_parent" />
