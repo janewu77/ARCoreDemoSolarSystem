@@ -131,9 +131,9 @@ public class SolarActivity extends AppCompatActivity {
     recordButton.setEnabled(true);
     recordButton.setImageResource(R.drawable.round_videocam);
 
-    recordButton = findViewById(R.id.close);
-    recordButton.setOnClickListener(this::closeAR);
-    recordButton.setEnabled(true);
+    closeButton = findViewById(R.id.close);
+    closeButton.setOnClickListener(this::closeAR);
+    closeButton.setEnabled(true);
     //recordButton.setImageResource(R.drawable.round_videocam);
 
 
@@ -560,7 +560,11 @@ public class SolarActivity extends AppCompatActivity {
 
   private void closeAR(View unusedView) {
 
-    solarSystemParent.removeChild(solarSystem);
+    if(solarSystemParent == null || solarSystem == null){
+      return;
+    }
+
+      solarSystemParent.removeChild(solarSystem);
 
   }
 
