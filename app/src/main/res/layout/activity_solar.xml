@@ -41,7 +41,7 @@
       android:focusable="true"
       app:backgroundTint="@color/colorAccent"
       app:elevation="1dp"
-      android:layout_marginBottom="24dp"
+      android:layout_margin="24dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintLeft_toRightOf="@id/close"
       app:layout_constraintEnd_toEndOf="parent"
@@ -55,14 +55,14 @@
       android:layout_height="wrap_content"
       android:clickable="true"
       android:focusable="true"
-      app:backgroundTint="@color/colorAccent"
+      app:backgroundTint="#ffffff"
       app:elevation="1dp"
-      android:layout_marginBottom="24dp"
+      android:layout_margin="24dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintRight_toLeftOf="@id/record"
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintHorizontal_chainStyle="spread"
-      app:srcCompat="@drawable/ic_launcher"/>
+      app:srcCompat="@drawable/icon_finger"/>
 
 </android.support.constraint.ConstraintLayout>
